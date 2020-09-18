@@ -11,12 +11,12 @@
 
 ## TEST
 
-[http://localhost:8080/greeting]
+http://localhost:8080/greeting
 ```JSON
 {"id":1,"content":"Hello, World!"}
 ```
 
-[http://localhost:8080/greeting?name=User]
+http://localhost:8080/greeting?name=User
 ```JSON
 {"id":2,"content":"Hello, User!"}
 ```
