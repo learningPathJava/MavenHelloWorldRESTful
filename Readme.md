@@ -1,21 +1,22 @@
-# Building a RESTful Web Service
-## Maven
-[https://spring.io/guides/gs/rest-service/#scratch]
+# Maven
+[Building a RESTful Web Service(https://spring.io/guides/gs/rest-service/#scratch)]
 
-**Build the JAR file**  : mvn clean package
+1.**Build the JAR file**  : mvn clean package
 
-**run the JAR**        : java -jar target/MavenHelloWorldRESTful-1.0-SNAPSHOT.jar
+2.**run the JAR**        : java -jar target/MavenHelloWorldRESTful-1.0-SNAPSHOT.jar
 
-**Terminal**: mvn spring-boot:run
-
+3.**Terminal**: mvn spring-boot:run
 
 
-**TEST** :
+
+## TEST
 
 [http://localhost:8080/greeting]
-
-Result  : {"id":1,"content":"Hello, World!"}
+```JSON
+{"id":1,"content":"Hello, World!"}
+```
 
 [http://localhost:8080/greeting?name=User]
-
-Result  : {"id":2,"content":"Hello, User!"}
+```JSON
+{"id":2,"content":"Hello, User!"}
+```
