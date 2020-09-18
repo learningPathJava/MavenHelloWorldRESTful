@@ -20,11 +20,11 @@ mvn spring-boot:run
 ## TEST
 
 http://localhost:8080/greeting
-```JSON
+```json
 {"id":1,"content":"Hello, World!"}
 ```
 
 http://localhost:8080/greeting?name=User
-```JSON
+```json
 {"id":2,"content":"Hello, User!"}
 ```
