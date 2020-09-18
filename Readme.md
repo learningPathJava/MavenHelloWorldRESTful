@@ -10,7 +10,7 @@
 
 
 
-**Browser** :
+**TEST** :
 
 [http://localhost:8080/greeting]
 
