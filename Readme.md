@@ -1,5 +1,5 @@
 # Maven
-[Building a RESTful Web Service(https://spring.io/guides/gs/rest-service/#scratch)]
+[Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/#scratch)
 
 1.**Build the JAR file**  : mvn clean package
 
