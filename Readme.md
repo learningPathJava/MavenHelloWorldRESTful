@@ -1,12 +1,20 @@
 # Maven
 [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/#scratch)
 
-1.**Build the JAR file**  : mvn clean package
+1.**Build the JAR file**  : 
+```JAVA
+mvn clean package
+```
 
-2.**run the JAR**        : java -jar target/MavenHelloWorldRESTful-1.0-SNAPSHOT.jar
+2.**run the JAR**        : 
+```JAVA
+java -jar target/MavenHelloWorldRESTful-1.0-SNAPSHOT.jar
+```
 
-3.**Terminal**: mvn spring-boot:run
-
+3.**Terminal**: 
+```JAVA
+mvn spring-boot:run
+```
 
 
 ## TEST
